@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textViewGadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ga di"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingRight="30dp"/>
+        <TextView
+            android:id="@+id/textViewGaden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ga den"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewChieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chieu"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/textViewDonGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don gia"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="310dp"/>
+</LinearLayout>
